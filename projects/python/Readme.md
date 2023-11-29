@@ -6,7 +6,14 @@ Call the python plot scripts with parameter <datadir> and <plotdir>
 
 ## Library required
 
-* scipy-stack
-* Cartopy
+* `scipy`
+* `Cartopy` (for plot_atm.py, plot_atm_3d.py, plot_grid.py)  
 
-      sudo apt-get install python3-scipy python3-cartopy
+### How to install via debian/ubuntu systems:
+`sudo apt-get install python3-scipy python3-cartopy`
+
+### How to install via python pip:
+`python3 -m pip install scipy cartopy`
+
+
+
